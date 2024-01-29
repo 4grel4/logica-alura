@@ -38,14 +38,14 @@ body::before {
     box-shadow: 4px 4px 20px 0px rgba(1, 8, 14, 0.15);
     background-image: url("img/Ruido.png");
     background-size: 100% 100%;
-    position: relative;
+    position: absolute;
 }
 
 
 .container__conteudo {
     display: flex;
     align-items: center;
-    position: absolute;
+    
     bottom: 0;
 }
 
@@ -63,15 +63,13 @@ body::before {
     font-weight: 700;
     border: none;
     margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .container__botao1:hover {
     background-color: #1875E8;
 
 }
-
-
-
 
 .container__texto {
     margin: 16px 0 16px 0;
@@ -104,9 +102,9 @@ body::before {
 }
 
 h1 {
-    margin-top: 15%;
+    margin-top: 5%;
     font-family: 'Chakra Petch', sans-serif;
-    font-size: 50px;
+    font-size: 35px;
     padding-bottom: 3rem;
     color: rgba(210, 221, 61, 0.973);
 }
@@ -135,7 +133,7 @@ button:not([disabled]):hover {
 @media screen and (max-width: 1250px) {
 
     h1 {
-        font-size: 50px;
+        font-size: 35px;
     }
 
     .container__botao {
